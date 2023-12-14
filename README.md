@@ -1,9 +1,9 @@
-<h1 align="center"> Batocera V37 Red Admiral Bios 2023</h1>
+<h1 align="center"> Batocera V38 Blue Moon Bios 2023</h1>
 <p align="center">
-Las Bios Correctas y necesarias para Batocera V37 Red Admiral, sin archivos innecesarios.
+Las Bios Correctas y necesarias para Batocera V38 Blue Moon, sin archivos innecesarios.
 </p>
 <p align="center">
-The right Bios for Batocera V37 Red Admiral, without unnecessary files.
+The right Bios for Batocera V38 Blue Moon, without unnecessary files.
 </p>
 <p align="center">
 <img src="https://raw.githubusercontent.com/Luciano2018/RetroPieBios/master/logov3.png" alt="Raspberry Pi Buenos Aires" width="400" height="500">
@@ -31,7 +31,7 @@ Password: `linux`
 Type:
 
 ```
-curl -sSL https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/pi-bios.sh | bash
+curl -sSL https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/pi-bios.sh | bash
 ```
 # Tutorial: Retroconsolas
 https://sites.google.com/view/raspberrypibuenosaires/retro-consolas
@@ -52,7 +52,7 @@ Password: `linux`
 Type:
 
 ```
-curl -sSL https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/pc-bios.sh | bash
+curl -sSL https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/pc-bios.sh | bash
 ```
 # Enjoy!!! --- A disfrutar!!!
 
