@@ -206,6 +206,7 @@ rm ../bios/sgb2_boot.bin
 rm ../bios/sl31253.bin
 rm ../bios/sl31254.bin
 rm ../bios/sl90025.bin
+rm ../bios/supracan.zip
 rm ../bios/socrates.zip
 rm ../bios/STBIOS.bin
 rm ../bios/syscard3.pce
@@ -249,7 +250,10 @@ rm ../bios/tos402.img
 rm ../bios/tos404.img
 rm ../bios/tutor.zip
 rm ../bios/upd7801g.s01
+rm ../bios/vis.zip
 rm ../bios/votrax.zip
+rm ../bios/votrsc01.zip
+rm ../bios/votrsc01a.zip
 rm ../bios/vsmile.zip
 rm ../bios/xegs.zip
 rm ../bios/ym2413.zip
@@ -513,6 +517,7 @@ wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/sl90025.bin" -P ../bios/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/socrates.zip" -P ../bios/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/STBIOS.bin" -P ../bios/
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/supracan.zip" -P ../bios/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/syscard3.pce" -P ../bios/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/ti99_4a.zip" -P ../bios/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/ti99_speech.zip" -P ../bios/
@@ -554,13 +559,21 @@ wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/tos404.img" -P ../bios/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/tutor.zip" -P ../bios/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/upd7801g.s01" -P ../bios/
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/vis.zip" -P ../bios/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/votrax.zip" -P ../bios/
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/votrsc01.zip" -P ../bios/
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/votrsc01a.zip" -P ../bios/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/vsmile.zip" -P ../bios/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/xegs.zip" -P ../bios/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/ym2413.zip" -P ../bios/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/ym2608.zip" -P ../bios/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/zcdata.dat" -P ../bios/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/zcsf.sf2" -P ../bios/
+echo
+echo  "Video Information System MD-2500, MAME"
+echo
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/vis.zip" -P ../bios/
+echo
 
 echo "Atomiswave"
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/dc/awbios.zip" -P ../bios/dc/
