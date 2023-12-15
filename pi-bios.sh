@@ -186,6 +186,7 @@ rm ../bios/sl31254.bin
 rm ../bios/sl90025.bin
 rm ../bios/socrates.zip
 rm ../bios/STBIOS.bin
+rm ../bios/supracan.zip
 rm ../bios/syscard3.pce
 rm ../bios/ti99_4a.zip
 rm ../bios/ti99_speech.zip
@@ -227,7 +228,10 @@ rm ../bios/tos402.img
 rm ../bios/tos404.img
 rm ../bios/tutor.zip
 rm ../bios/upd7801g.s01
+rm ../bios/vis.zip
 rm ../bios/votrax.zip
+rm ../bios/votrsc01.zip
+rm ../bios/votrsc01a.zip
 rm ../bios/vsmile.zip
 rm ../bios/xegs.zip
 rm ../bios/ym2413.zip
@@ -373,6 +377,9 @@ wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/a2cffa02.zip" -P ../bios/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/votrax.zip" -P ../bios/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/d2fdc.zip" -P ../bios/
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/votrsc01.zip" -P ../bios/
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/votrsc01a.zip" -P ../bios/
+
 echo
 echo "Apple IIGS Gsplus, MAME"
 echo
@@ -714,6 +721,10 @@ wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/mpr-19367-mx.ic1" -P ../bios/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/saturn_bios.bin" -P ../bios/
 echo
+echo "Super ACan: Lr-Mess, MAME"
+echo
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/supracan.zip" -P ../bios/
+echo
 echo "Super Cassette Vision: Lr-Emuscv"
 echo
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/upd7801g.s01" -P ../bios/
@@ -772,6 +783,12 @@ echo
 echo "V.Smile: MAME"
 echo
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/vsmile.zip" -P ../bios/
+echo
+echo
+echo  "Video Information System MD-2500, MAME"
+echo
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/vis.zip" -P ../bios/
+echo
 echo
 echo "Sharp X1: Lr-X1"
 echo
