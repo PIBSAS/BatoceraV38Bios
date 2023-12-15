@@ -559,7 +559,6 @@ wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/tos404.img" -P ../bios/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/tutor.zip" -P ../bios/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/upd7801g.s01" -P ../bios/
-wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/vis.zip" -P ../bios/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/votrax.zip" -P ../bios/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/votrsc01.zip" -P ../bios/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/votrsc01a.zip" -P ../bios/
