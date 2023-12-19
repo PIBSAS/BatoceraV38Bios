@@ -258,8 +258,6 @@ rm ../bios/vsmile.zip
 rm ../bios/xegs.zip
 rm ../bios/ym2413.zip
 rm ../bios/ym2608.zip
-rm ../bios/zcdata.dat
-rm ../bios/zcsf.sf2
 rm ../bios/dc/awbios.zip
 rm ../bios/dc/naomi.zip
 rm ../bios/dc/naomi2.zip
@@ -566,8 +564,6 @@ wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/xegs.zip" -P ../bios/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/ym2413.zip" -P ../bios/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/ym2608.zip" -P ../bios/
-wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/zcdata.dat" -P ../bios/
-wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/zcsf.sf2" -P ../bios/
 echo
 echo  "Video Information System MD-2500, MAME"
 echo
