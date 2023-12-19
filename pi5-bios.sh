@@ -19,6 +19,10 @@ echo "You will see cannot remove if the system is new"
 echo
 cd
 mkdir ../bios/dc
+mkdir ../bios/GC
+mkdir ../bios/GC/EUR
+mkdir ../bios/GC/JAP
+mkdir ../bios/GC/USA
 mkdir ../bios/fmtowns
 mkdir ../bios/neocd
 mkdir ../bios/mame
@@ -40,7 +44,6 @@ rm ../bios/kick37350.A600
 rm ../bios/vectrex.zip
 rm ../bios/Complex_4627.bin
 rm ../bios/EROM.BIN
-rm ../bios/PS3UPDAT.PUP
 rm ../bios/ROM2.BIN
 rm ../bios/SCPH30004R.MEC
 rm ../bios/SCPH30004R.bin
@@ -263,6 +266,9 @@ rm ../bios/zcsf.sf2
 rm ../bios/dc/awbios.zip
 rm ../bios/dc/naomi.zip
 rm ../bios/dc/naomi2.zip
+rm ../bios/GC/EUR/IPL.bin
+rm ../bios/GC/JAP/IPL.bin
+rm ../bios/GC/USA/IPL.bin
 rm ../bios/fmtowns/FMT_DIC.ROM
 rm ../bios/fmtowns/FMT_DOS.ROM
 rm ../bios/fmtowns/FMT_F20.ROM
@@ -336,7 +342,6 @@ echo "PC, Be a lot patience"
 
 wget -c "https://archive.org/download/raspberry-pi-buenos-aires-batocera-v31-BIOS/Raspberry%20Pi%20Buenos%20Aires%20Batocera%20V35%20BIOS%20Extra%20PC.zip/bios/Complex_4627.bin" -P ../bios/
 wget -c "https://archive.org/download/raspberry-pi-buenos-aires-batocera-v31-BIOS/Raspberry%20Pi%20Buenos%20Aires%20Batocera%20V35%20BIOS%20Extra%20PC.zip/bios/EROM.BIN" -P ../bios/
-wget -c "https://archive.org/download/raspberry-pi-buenos-aires-batocera-v31-BIOS/Raspberry%20Pi%20Buenos%20Aires%20Batocera%20V35%20BIOS%20Extra%20PC.zip/bios/PS3UPDAT.PUP" -P ../bios/
 wget -c "https://archive.org/download/raspberry-pi-buenos-aires-batocera-v31-BIOS/Raspberry%20Pi%20Buenos%20Aires%20Batocera%20V35%20BIOS%20Extra%20PC.zip/bios/ROM2.BIN" -P ../bios/
 wget -c "https://archive.org/download/raspberry-pi-buenos-aires-batocera-v31-BIOS/Raspberry%20Pi%20Buenos%20Aires%20Batocera%20V35%20BIOS%20Extra%20PC.zip/bios/SCPH30004R.MEC" -P ../bios/
 wget -c "https://archive.org/download/raspberry-pi-buenos-aires-batocera-v31-BIOS/Raspberry%20Pi%20Buenos%20Aires%20Batocera%20V35%20BIOS%20Extra%20PC.zip/bios/SCPH30004R.bin" -P ../bios/
@@ -580,6 +585,11 @@ wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios
 echo "Naomi"
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/dc/naomi.zip" -P ../bios/dc/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/dc/naomi2.zip" -P ../bios/dc/
+
+echo "GameCube"
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/GC/EUR/IPL.bin" -P ../bios/GC/EUR/
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/GC/JAP/IPL.bin" -P ../bios/GC/JAP/
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/GC/USA/IPL.bin" -P ../bios/GC/USA/
 
 echo "FM Towns"
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/bios/fmtowns/FMT_DIC.ROM" -P ../bios/fmtowns/
