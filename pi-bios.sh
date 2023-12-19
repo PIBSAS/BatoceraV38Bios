@@ -267,7 +267,7 @@ rm ../bios/openmsx/px-7_basic-bios1.rom
 rm ../bios/openmsx/fs-a1gt_firmware.rom
 rm ../bios/openmsx/fs-a1gt_kanjifont.rom
 rm ../bios/openmsx/fs-a1wsx_basic-bios2p.rom
-rm ../bios/openmsx/fs-a1wsx_disk.room
+rm ../bios/openmsx/fs-a1wsx_disk.rom
 rm ../bios/openmsx/fs-a1wsx_firmware.rom
 rm ../bios/openmsx/fs-a1wsx_fmbasic.rom
 rm ../bios/openmsx/fs-a1wsx_kanjibasic.rom
