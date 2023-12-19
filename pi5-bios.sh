@@ -338,7 +338,7 @@ echo "System ready for right installation"
 
 echo "Obteniendo Bios---Getting Bios, be patient"
 
-echo "PC, Be a lot patience"
+echo "Pi 5, Be a lot patience"
 
 wget -c "https://archive.org/download/raspberry-pi-buenos-aires-batocera-v31-BIOS/Raspberry%20Pi%20Buenos%20Aires%20Batocera%20V35%20BIOS%20Extra%20PC.zip/bios/Complex_4627.bin" -P ../bios/
 wget -c "https://archive.org/download/raspberry-pi-buenos-aires-batocera-v31-BIOS/Raspberry%20Pi%20Buenos%20Aires%20Batocera%20V35%20BIOS%20Extra%20PC.zip/bios/EROM.BIN" -P ../bios/
