@@ -9,20 +9,21 @@ The right Bios for Batocera V38 Blue Moon, without unnecessary files.
 <img src="https://raw.githubusercontent.com/Luciano2018/RetroPieBios/master/logov3.png" alt="Raspberry Pi Buenos Aires" width="400" height="500">
 </p>
 
+<h1 align="center"> Raspberry Pi</h1>
 
-# Easy Install -- Instalación fácil para Raspberry Pi:
+## Easy Install -- Instalación fácil para Raspberry Pi:
 
-# Open the Terminal with `Ctrl + Alt + F3` or Login through SSH -- Abrimos una Terminal con `Ctrl + Alt + F3`:
+## Open the Terminal with `Ctrl + Alt + F3` or Login through SSH -- Abrimos una Terminal con `Ctrl + Alt + F3`:
 
 Type:
 
 ```
-curl -sSL https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/pi-bios.sh | bash
+curl -sSL https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/pi-bios.sh | bash
 ```
 
-# Or Login through SSH -- O Nos conectamos por SSH:
+### Or Login through SSH -- O Nos conectamos por SSH:
 
-# Login:
+### Login:
 
 User:`root`
 
@@ -33,20 +34,23 @@ Type:
 ```
 curl -sSL https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/pi-bios.sh | bash
 ```
-## Raspberry Pi 5 Bios Batocera V39
-# Easy Install -- Instalación fácil para Raspberry Pi:
 
-# Open the Terminal with `Ctrl + Alt + F3` or Login through SSH -- Abrimos una Terminal con `Ctrl + Alt + F3`:
+<h1 align="center">Raspberry Pi 5</h1>
+
+## Raspberry Pi 5 Bios Batocera V39
+## Easy Install -- Instalación fácil para Raspberry Pi:
+
+## Open the Terminal with `Ctrl + Alt + F3` or Login through SSH -- Abrimos una Terminal con `Ctrl + Alt + F3`:
 
 Type:
 
 ```
-curl -sSL https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/pi5-bios.sh | bash
+curl -sSL https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/pi5-bios.sh | bash
 ```
 
-# Or Login through SSH -- O Nos conectamos por SSH:
+### Or Login through SSH -- O Nos conectamos por SSH:
 
-# Login:
+### Login:
 
 User:`root`
 
@@ -58,18 +62,13 @@ Type:
 curl -sSL https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/pi5-bios.sh | bash
 ```
 
+<h1 align="center">PC</h1>
 
-# Tutorial: Retroconsolas
-https://sites.google.com/view/raspberrypibuenosaires/retro-consolas
+## Easy Install -- Instalación fácil PC:
 
-# Tutorial: Crea tu propio Joystick Arcade con Pro-Micro mejor que Zero Delay
-https://sites.google.com/view/raspberrypibuenosaires/joystick-arcade
+## Login through SSH or press `F1` and go to Terminal -- Nos conectamos por SSH o Presionas `F1` y vas a la Terminal
 
-# Easy Install -- Instalación fácil PC:
-
-# Login through SSH or press `F1` and go to Terminal -- Nos conectamos por SSH o Presionas `F1` y vas a la Terminal
-
-# Login:
+### Login:
 
 User:`root`
 
@@ -80,8 +79,16 @@ Type:
 ```
 curl -sSL https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/pc-bios.sh | bash
 ```
-# Enjoy!!! --- A disfrutar!!!
+### Enjoy!!! --- A disfrutar!!!
 
+<br>
+# Tutorial: Retroconsolas
+https://sites.google.com/view/raspberrypibuenosaires/retro-consolas
+
+# Tutorial: Crea tu propio Joystick Arcade con Pro-Micro mejor que Zero Delay
+https://sites.google.com/view/raspberrypibuenosaires/joystick-arcade
+
+<br>
 <h1 align="center"> Invite a Coffee</h1>
 <p align="center">
 <a href="https://www.paypal.com/paypalme/RaspberryPiBsAs">
