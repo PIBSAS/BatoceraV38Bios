@@ -35,33 +35,6 @@ Type:
 curl -sSL https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/pi-bios.sh | bash
 ```
 
-<h1 align="center">Raspberry Pi 5</h1>
-
-## Raspberry Pi 5 Bios Batocera V39
-## Easy Install -- Instalación fácil para Raspberry Pi:
-
-## Open the Terminal with `Ctrl + Alt + F3` or Login through SSH -- Abrimos una Terminal con `Ctrl + Alt + F3`:
-
-Type:
-
-```
-curl -sSL https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/pi5-bios.sh | bash
-```
-
-### Or Login through SSH -- O Nos conectamos por SSH:
-
-### Login:
-
-User:`root`
-
-Password: `linux`
-
-Type:
-
-```
-curl -sSL https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/pi5-bios.sh | bash
-```
-
 <h1 align="center">PC</h1>
 
 ## Easy Install -- Instalación fácil PC:
