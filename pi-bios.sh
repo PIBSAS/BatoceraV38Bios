@@ -256,7 +256,7 @@ rm ../bios/neocd/neocd_sz.rom
 rm ../bios/neocd/neocd_t.rom
 rm ../bios/neocd/neocd_z.rom
 rm ../bios/neocd/top-sp1.bin
-rm ../bios/neocd/uni-bioscdd.rom
+rm ../bios/neocd/uni-bioscd.rom
 rm ../bios/np2kai/BIOS.ROM
 rm ../bios/np2kai/font.bmp
 rm ../bios/np2kai/FONT.ROM
