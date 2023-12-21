@@ -6,7 +6,7 @@ Las Bios Correctas y necesarias para Batocera V38 Blue Moon, sin archivos innece
 The right Bios for Batocera V38 Blue Moon, without unnecessary files.
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/Luciano2018/RetroPieBios/master/logov3.png" alt="Raspberry Pi Buenos Aires" width="400" height="500">
+<img src="https://raw.githubusercontent.com/PIBSAS/RetroPieBios/master/logov3.png" alt="Raspberry Pi Buenos Aires" width="400" height="500">
 </p>
 
 <h1 align="center"> Raspberry Pi</h1>
@@ -18,7 +18,7 @@ The right Bios for Batocera V38 Blue Moon, without unnecessary files.
 Type:
 
 ```
-curl -sSL https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/pi-bios.sh | bash
+curl -sSL https://raw.githubusercontent.com/PIBSAS/BatoceraV38Bios/main/pi.sh | bash
 ```
 
 ### Or Login through SSH -- O Nos conectamos por SSH:
@@ -32,7 +32,7 @@ Password: `linux`
 Type:
 
 ```
-curl -sSL https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/pi-bios.sh | bash
+curl -sSL https://raw.githubusercontent.com/PIBSAS/BatoceraV38Bios/main/pi.sh | bash
 ```
 
 <h1 align="center">PC</h1>
@@ -50,7 +50,7 @@ Password: `linux`
 Type:
 
 ```
-curl -sSL https://raw.githubusercontent.com/Luciano2018/BatoceraV38Bios/main/pc-bios.sh | bash
+curl -sSL https://raw.githubusercontent.com/PIBSAS/BatoceraV38Bios/main/pc.sh | bash
 ```
 ### Enjoy!!! --- A disfrutar!!!
 
@@ -65,9 +65,9 @@ https://sites.google.com/view/raspberrypibuenosaires/joystick-arcade
 <h1 align="center"> Invite a Coffee</h1>
 <p align="center">
 <a href="https://www.paypal.com/paypalme/RaspberryPiBsAs">
-<img src="https://raw.githubusercontent.com/Luciano2018/MiPiTV/master/Paypal_2014_logo.png" alt="Invite a Coffee" width="40" height="50">
+<img src="https://raw.githubusercontent.com/PIBSAS/MiPiTV/master/Paypal_2014_logo.png" alt="Invite a Coffee" width="40" height="50">
 </a>
 <a href="https://link.mercadopago.com.ar/raspberrypibsas">
-<img src="https://raw.githubusercontent.com/Luciano2018/MiPiTV/master/MercadoPago.png" alt="Invite a Coffee" width="40" height="50">
+<img src="https://raw.githubusercontent.com/PIBSAS/MiPiTV/master/MercadoPago.png" alt="Invite a Coffee" width="40" height="50">
 </a>
 </p>
