@@ -13,6 +13,7 @@ echo
 RUTA=https://raw.githubusercontent.com/PIBSAS/BatoceraV38Bios/main/bios/
 RUTA_ARCH=https://archive.org/download/raspberry-pi-buenos-aires-batocera-v31-BIOS/Raspberry%20Pi%20Buenos%20Aires%20Batocera%20V35%20BIOS%20Extra%20PC.zip/bios/
 RUTA_TRI=https://archive.org/download/raspberry-pi-buenos-aires-batocera-v31-BIOS/Raspberry%20Pi%20Buenos%20Aires%20Batocera%20V33%20BIOS.zip/bios/
+RUTA_CUA=https://archive.org/download/raspberry-pi-buenos-aires-batocera-v31-BIOS/
 echo "Limpiando las bios basura que te descargaste de otro lado o las mismas si se te corto internet"
 echo "Cleaning the garbage bios downloaded from other sites or from this site but if you internet shutdown in the process"
 echo
@@ -21,11 +22,17 @@ echo "You will see cannot remove if the system is new"
 echo
 cd
 mkdir ../bios/dc
+mkdir ../bios/GC
+mkdir ../bios/GC/EUR
+mkdir ../bios/GC/JAP
+mkdir ../bios/GC/USA
 mkdir ../bios/fmtowns
 mkdir ../bios/neocd
 mkdir ../bios/mame
 mkdir ../bios/mame/samples
 mkdir ../bios/openmsx
+mkdir ../bios/ps2
+mkdir ../bios/psvita
 mkdir ../bios/scummvm/extra
 mkdir ../bios/xmil
 mkdir ../bios/wsh57
@@ -56,6 +63,12 @@ rm ../bios/rom1.bin
 rm ../bios/scph39001.MEC
 rm ../bios/scph39001.bin
 rm ../bios/wsh57/scripten.exe
+rm ../bios/ps2/ps2-0230a-20080220.bin
+rm ../bios/psvita/PSP2UPDAT.PUP
+rm ../bios/psvita/PSVUPDAT.PUP
+rm ../bios/GC/EUR/IPL.bin
+rm ../bios/GC/JAP/IPL.bin
+rm ../bios/GC/USA/IPL.bin
 echo
 rm ../bios/5200.rom
 rm ../bios/a2diskiing.zip
@@ -336,7 +349,6 @@ echo "PC, Be a lot patience"
 
 wget -c "${RUTA_ARCH}Complex_4627.bin" -P ../bios/
 wget -c "${RUTA_ARCH}EROM.BIN" -P ../bios/
-wget -c "${RUTA_ARCH}PS3UPDAT.PUP" -P ../bios/
 wget -c "${RUTA_ARCH}ROM2.BIN" -P ../bios/
 wget -c "${RUTA_ARCH}SCPH30004R.MEC" -P ../bios/
 wget -c "${RUTA_ARCH}SCPH30004R.bin" -P ../bios/
@@ -567,11 +579,17 @@ wget -c "${RUTA}xegs.zip" -P ../bios/
 wget -c "${RUTA}ym2413.zip" -P ../bios/
 wget -c "${RUTA}ym2608.zip" -P ../bios/
 echo
+echo
+echo "###### NINTENDO GAMECUBE ######"
+echo
+wget -c "${RUTA}GC/EUR/IPL.bin" -P ../bios/GC/EUR/
+wget -c "${RUTA}GC/JAP/IPL.bin" -P ../bios/GC/JAP/
+wget -c "${RUTA}GC/USA/IPL.bin" -P ../bios/GC/USA/
+echo
 echo  "Video Information System MD-2500, MAME"
 echo
 wget -c "${RUTA}vis.zip" -P ../bios/
 echo
-
 echo "Atomiswave"
 wget -c "${RUTA}dc/awbios.zip" -P ../bios/dc/
 
@@ -647,6 +665,16 @@ echo
 wget -c "${RUTA}scummvm/extra/MT32_PCM.ROM" -P ../bios/scummvm/extra
 wget -c "${RUTA}scummvm/extra/MT32_CONTROL.ROM" -P ../bios/scummvm/extra
 echo
+echo
+echo "###### PLAYSTATION VITA ######"
+echo
+wget -c "${RUTA_CUA}PSP2UPDAT.PUP" -P ../bios/psvita/
+wget -c "${RUTA_CUA}PSVUPDAT.PUP" -P ../bios/psvita/
+echo
+echo
+echo "###### SONY PS3 ######"
+echo
+wget -c "${RUTA_CUA}PS3UPDAT.PUP" -P ../bios/
 echo
 echo
 echo "Zelda Classic: ZC210"
